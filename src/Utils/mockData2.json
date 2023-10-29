@@ -1,0 +1,518 @@
+{
+    "CACHE_INVALIDATION_TTL": "0",
+    "META_INFO": {
+        "abContext": {
+            "abWrapper": [
+                {
+                    "abId": "STG|prestart|bd64e18d|h"
+                },
+                {
+                    "abId": "STG|58w5y05yg6DxA3efHdf5Sw|4797d7b3|h"
+                },
+                {
+                    "abId": "STG|prestart|ff95a778|h"
+                },
+                {
+                    "abId": "STG|5xD5aqD7Y8iaOL6YgEd0Am|df509514|h"
+                },
+                {
+                    "abId": "STG|launchedGroup|0aecb28d|h"
+                },
+                {
+                    "abId": "STG|prestart|f8e32772|h"
+                },
+                {
+                    "abId": "STG|9CdUMGJhLjTyJ1uMVRfKa|74b2701f|h"
+                },
+                {
+                    "abId": "STG|launchedGroup|b0994c5d|h"
+                }
+            ]
+        },
+        "appConfigHash": null,
+        "clientConfigHashMap": null,
+        "dcInfo": null,
+        "omnitureInfo": null
+    },
+    "REQUEST": null,
+    "REQUEST-ID": "e048351e-3e06-4b8f-bd16-a702dfb60e58",
+    "RESPONSE": {
+        "pageData": {
+            "backTTL": 1,
+            "elementId": "page",
+            "globalSlots": [],
+            "hardTTL": 2147483647,
+            "hasMorePages": false,
+            "infinitePage": false,
+            "layoutParams": {
+                "backgroundColor": "#F1F2F4",
+                "orientation": "",
+                "theme": "light"
+            },
+            "pageContext": {
+                "type": "BasePageContext",
+                "bu": "BasePageContext",
+                "fdpEventTracking": null,
+                "isNewUser": false
+            },
+            "pageEventResponseMap": {},
+            "pageHash": "1167958384",
+            "pageId": "cartt-dynam-70010",
+            "pageLevelSlots": {},
+            "pageTTL": 1,
+            "pageTags": {
+                "tags": []
+            },
+            "paginationContextMap": {},
+            "sharedData": {},
+            "trackingContext": {
+                "meta": {
+                    "sMode": "BLUE"
+                },
+                "navigationalPageName": "CART_PAGE",
+                "navigationalPageType": "dynamic",
+                "orderLevelTrackingMap": {},
+                "pageName": "CART_PAGE",
+                "pageType": "dynamic",
+                "tracking": {
+                    "loginStatus": "login:flipkart"
+                }
+            }
+        },
+        "pageMeta": {
+            "baseImpressionId": "e048351e-3e06-4b8f-bd16-a702dfb60e58",
+            "hasErrorWidget": false,
+            "pageNotChanged": false,
+            "prefetchPage": {
+                "enablePrefetch": false
+            }
+        },
+        "slots": [
+            {
+                "slotType": "LOGICAL",
+                "id": 10003,
+                "parentId": 10001,
+                "layoutParams": {
+                    "backgroundColor": "#ffffff",
+                    "boxShadow": "0 1px 2px 0 rgba(0, 0, 0, 0.2)",
+                    "orientation": "",
+                    "spacing": "20,0,0,0",
+                    "widgetHeight": 150,
+                    "widgetWidth": 12
+                },
+                "childArrangement": "STACK"
+            },
+            {
+                "slotType": "WIDGET",
+                "id": 9,
+                "parentId": 10003,
+                "layoutParams": {
+                    "borderTop": "1",
+                    "orientation": "",
+                    "widgetHeight": 150,
+                    "widgetWidth": 12
+                },
+                "dataId": "161114936",
+                "elementId": "9-TEXT_V2",
+                "hasWidgetDataChanged": true,
+                "ttl": 3000,
+                "widget": {
+                    "type": "TEXT_V2",
+                    "viewType": "SFL_PAGE_TITLE",
+                    "data": {
+                        "action": null,
+                        "message": {
+                            "action": null,
+                            "metaData": null,
+                            "rcType": null,
+                            "tracking": null,
+                            "trackingData": null,
+                            "value": {
+                                "type": "RichMessageValue",
+                                "image": {
+                                    "type": "ImageValue",
+                                    "dynamicImageUrl": "https://rukminim1.flixcart.com/www/{@width}/{@height}/promos/13/02/2019/db96c6a2-6e28-450b-963b-b39ed4fd85f7.png?q={@quality}",
+                                    "height": 0,
+                                    "width": 0
+                                },
+                                "title": {
+                                    "type": "RichTextValue",
+                                    "text": "Saved For Later (1)"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "slotType": "WIDGET",
+                "id": 10002000,
+                "parentId": 10003,
+                "layoutParams": {
+                    "borderTop": "1",
+                    "orientation": "",
+                    "widgetHeight": 150,
+                    "widgetWidth": 12
+                },
+                "dataId": "1745816290",
+                "elementId": "10002000-SFL_PRODUCT_CARD",
+                "hasWidgetDataChanged": true,
+                "ttl": 3000,
+                "widget": {
+                    "type": "SFL_PRODUCT_CARD",
+                    "viewType": "RightAligned",
+                    "data": {
+                        "actions": [
+                            {
+                                "action": {
+                                    "constraints": null,
+                                    "customTrackingEvents": null,
+                                    "fallback": null,
+                                    "loginType": "LOGIN_NOT_REQUIRED",
+                                    "nonWidgetizeRedirection": null,
+                                    "omnitureData": null,
+                                    "originalUrl": null,
+                                    "params": {
+                                        "pageNumber": 1,
+                                        "productId": "PTGG33BQRTSZVR4U",
+                                        "pageUri": "/viewcart?exploreMode=true&marketplace=FLIPKART",
+                                        "listingId": "LSTPTGG33BQRTSZVR4ULB76FR",
+                                        "type": "MOVE_SFL_TO_CART"
+                                    },
+                                    "requiredPermissionType": null,
+                                    "screenType": null,
+                                    "tracking": {},
+                                    "triggerExtraStandardEvents": null,
+                                    "type": "MOVE_SFL_TO_CART",
+                                    "url": null,
+                                    "validationMeta": null,
+                                    "widgetTracking": null
+                                },
+                                "metaData": null,
+                                "rcType": null,
+                                "tracking": null,
+                                "trackingData": null,
+                                "value": {
+                                    "type": "TransactActionButtonValue",
+                                    "image": {
+                                        "type": "ImageValue",
+                                        "dynamicImageUrl": "https://rukminim1.flixcart.com/www/{@width}/{@height}/promos/13/02/2019/2e475610-320f-4c65-baa2-a77736a94f77.png?q={@quality}",
+                                        "height": 0,
+                                        "width": 0
+                                    },
+                                    "title": "Move to cart"
+                                }
+                            },
+                            {
+                                "action": {
+                                    "constraints": null,
+                                    "customTrackingEvents": null,
+                                    "fallback": null,
+                                    "loginType": "LOGIN_NOT_REQUIRED",
+                                    "nonWidgetizeRedirection": null,
+                                    "omnitureData": null,
+                                    "originalUrl": null,
+                                    "params": {},
+                                    "requiredPermissionType": null,
+                                    "screenType": null,
+                                    "tracking": {},
+                                    "triggerExtraStandardEvents": null,
+                                    "type": "SHOW_POPUP",
+                                    "url": null,
+                                    "validationMeta": null,
+                                    "widgetTracking": null
+                                },
+                                "metaData": null,
+                                "rcType": null,
+                                "tracking": null,
+                                "trackingData": null,
+                                "value": {
+                                    "type": "TransactActionButtonValue",
+                                    "image": {
+                                        "type": "ImageValue",
+                                        "dynamicImageUrl": "https://rukminim1.flixcart.com/www/{@width}/{@height}/promos/13/02/2019/bc836649-0a7f-498b-a8f8-ef0a0217ff28.png?q={@quality}",
+                                        "height": 0,
+                                        "width": 0
+                                    },
+                                    "popupDetails": {
+                                        "type": "REMOVE_ITEM_CONFIRMATION",
+                                        "data": {
+                                            "actions": [
+                                                {
+                                                    "action": {
+                                                        "constraints": null,
+                                                        "customTrackingEvents": null,
+                                                        "fallback": null,
+                                                        "loginType": "LOGIN_NOT_REQUIRED",
+                                                        "nonWidgetizeRedirection": null,
+                                                        "omnitureData": null,
+                                                        "originalUrl": null,
+                                                        "params": {},
+                                                        "requiredPermissionType": null,
+                                                        "screenType": null,
+                                                        "tracking": {},
+                                                        "triggerExtraStandardEvents": null,
+                                                        "type": "POPUP_DISMISS",
+                                                        "url": null,
+                                                        "validationMeta": null,
+                                                        "widgetTracking": null
+                                                    },
+                                                    "metaData": null,
+                                                    "rcType": null,
+                                                    "tracking": null,
+                                                    "trackingData": null,
+                                                    "value": {
+                                                        "type": "RichButtonValue",
+                                                        "title": "Cancel"
+                                                    }
+                                                },
+                                                {
+                                                    "action": {
+                                                        "constraints": null,
+                                                        "customTrackingEvents": null,
+                                                        "fallback": null,
+                                                        "loginType": "LOGIN_NOT_REQUIRED",
+                                                        "nonWidgetizeRedirection": null,
+                                                        "omnitureData": null,
+                                                        "originalUrl": null,
+                                                        "params": {
+                                                            "pageNumber": 2,
+                                                            "productId": "PTGG33BQRTSZVR4U",
+                                                            "pageUri": "/viewcart?exploreMode=true&marketplace=FLIPKART",
+                                                            "listingId": "LSTPTGG33BQRTSZVR4ULB76FR",
+                                                            "type": "SFL_REMOVE"
+                                                        },
+                                                        "requiredPermissionType": null,
+                                                        "screenType": null,
+                                                        "tracking": {},
+                                                        "triggerExtraStandardEvents": null,
+                                                        "type": "SFL_REMOVE",
+                                                        "url": null,
+                                                        "validationMeta": null,
+                                                        "widgetTracking": null
+                                                    },
+                                                    "metaData": null,
+                                                    "rcType": null,
+                                                    "tracking": null,
+                                                    "trackingData": null,
+                                                    "value": {
+                                                        "type": "RichButtonValue",
+                                                        "title": "Remove"
+                                                    }
+                                                }
+                                            ],
+                                            "callouts": null,
+                                            "icon": null,
+                                            "items": [],
+                                            "subtitle": "Are you sure you want to remove this item?",
+                                            "title": "Remove Item"
+                                        },
+                                        "tracking": {
+                                            "sProduct": ";PTGG33BQRTSZVR4U;;;;eVar19=Painting|eVar22=WallDecor|eVar93=FLIPKART|eVar88=LSTPTGG33BQRTSZVR4ULB76FR|eVar84=490_490_320_34_34|evar67=0_0_0_0|evar44=39306cd23f6c47f5_FA|eVar89=pnf",
+                                            "productId": "PTGG33BQRTSZVR4U",
+                                            "marketPlace": "FLIPKART",
+                                            "otracker": "SFL_PRODUCT_CARD",
+                                            "category": "WallDecor",
+                                            "widgetType": "SFL_PRODUCT_CARD"
+                                        }
+                                    },
+                                    "title": "Remove"
+                                }
+                            }
+                        ],
+                        "productInfo": {
+                            "baseInfo": {
+                                "action": {
+                                    "constraints": null,
+                                    "customTrackingEvents": null,
+                                    "fallback": null,
+                                    "loginType": "LOGIN_NOT_REQUIRED",
+                                    "nonWidgetizeRedirection": null,
+                                    "omnitureData": null,
+                                    "originalUrl": "/pnf-614-motivational-quotes-never-gets-easier-you-just-gat-better-wooden-synthetic-frame-digital-reprint-13-inch-x-painting/p/itm74a88ce71eb61?pid=PTGG33BQRTSZVR4U&lid=LSTPTGG33BQRTSZVR4ULB76FR",
+                                    "params": {
+                                        "valid": true,
+                                        "pids": [
+                                            "PTGG33BQRTSZVR4U"
+                                        ],
+                                        "lids": [
+                                            "LSTPTGG33BQRTSZVR4ULB76FR"
+                                        ]
+                                    },
+                                    "requiredPermissionType": null,
+                                    "screenType": "productPage",
+                                    "tracking": {},
+                                    "triggerExtraStandardEvents": null,
+                                    "type": "NAVIGATION",
+                                    "url": "/pnf-614-motivational-quotes-never-gets-easier-you-just-gat-better-wooden-synthetic-frame-digital-reprint-13-inch-x-painting/p/itm74a88ce71eb61?pid=PTGG33BQRTSZVR4U&lid=LSTPTGG33BQRTSZVR4ULB76FR",
+                                    "validationMeta": null,
+                                    "widgetTracking": null
+                                },
+                                "metaData": null,
+                                "rcType": null,
+                                "tracking": null,
+                                "trackingData": null,
+                                "value": {
+                                    "type": "BaseProductInfoValue",
+                                    "callouts": [],
+                                    "id": "PTGG33BQRTSZVR4U",
+                                    "listingId": "LSTPTGG33BQRTSZVR4ULB76FR",
+                                    "media": {
+                                        "images": [
+                                            {
+                                                "aspectRatio": null,
+                                                "contentInfo": null,
+                                                "height": null,
+                                                "url": "https://rukminim1.flixcart.com/image/{@width}/{@height}/koono280/painting/h/x/v/13-pf-614-wording-12x12frame-pnf-original-imag33bptnhb5dyg.jpeg?q={@quality}",
+                                                "width": null
+                                            }
+                                        ]
+                                    },
+                                    "quantity": 1,
+                                    "titles": {
+                                        "subtitle": "With Frame",
+                                        "title": "pnf 614-MOTIVATIONAL QUOTES it never gets easier you just gat better with Wooden Synthetic Frame Digital Reprint 13 inch x 13 inch Painting"
+                                    }
+                                }
+                            },
+                            "children": null,
+                            "preBookInfo": null,
+                            "pricingInfo": {
+                                "announcements": null,
+                                "coinPrice": {
+                                    "type": "FormattedMessageValue",
+                                    "data": [
+                                        {
+                                            "type": "FormattedRichTextData",
+                                            "value": {
+                                                "type": "RichTextValue",
+                                                "text": "Or Pay "
+                                            }
+                                        },
+                                        {
+                                            "type": "FormattedRichTextData",
+                                            "value": {
+                                                "type": "RichTextValue",
+                                                "text": "₹315 + "
+                                            }
+                                        },
+                                        {
+                                            "type": "FormattedImageData",
+                                            "value": {
+                                                "type": "ImageValue",
+                                                "aspectRatio": "1:1",
+                                                "dynamicImageUrl": "https://rukminim1.flixcart.com/www/{@width}/{@height}/promos/18/07/2019/4aebbd99-7478-411e-aced-265e7722d18d.png?q={@quality}",
+                                                "height": 0,
+                                                "width": 0
+                                            }
+                                        },
+                                        {
+                                            "type": "FormattedRichTextData",
+                                            "value": {
+                                                "type": "RichTextValue",
+                                                "text": " 10"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "message": [],
+                                "packagingCharges": null,
+                                "prices": [
+                                    {
+                                        "childMultiCurrencyPriceList": [],
+                                        "collapsed": null,
+                                        "currency": "INR",
+                                        "feeLabelPrice": 0,
+                                        "formattedLabel": null,
+                                        "formattedSubLabel": null,
+                                        "icon": null,
+                                        "info": null,
+                                        "label": null,
+                                        "noteKey": null,
+                                        "prefixText": null,
+                                        "priceType": "PRICE",
+                                        "strikeOff": true,
+                                        "subLabel": null,
+                                        "tracking": null,
+                                        "value": 499
+                                    },
+                                    {
+                                        "childMultiCurrencyPriceList": [],
+                                        "collapsed": null,
+                                        "currency": "INR",
+                                        "feeLabelPrice": 0,
+                                        "formattedLabel": null,
+                                        "formattedSubLabel": null,
+                                        "icon": null,
+                                        "info": null,
+                                        "label": null,
+                                        "noteKey": null,
+                                        "prefixText": null,
+                                        "priceType": "PRICE",
+                                        "strikeOff": false,
+                                        "subLabel": null,
+                                        "tracking": null,
+                                        "value": 325
+                                    },
+                                    {
+                                        "childMultiCurrencyPriceList": [],
+                                        "collapsed": null,
+                                        "currency": "INR",
+                                        "feeLabelPrice": 0,
+                                        "formattedLabel": null,
+                                        "formattedSubLabel": null,
+                                        "icon": null,
+                                        "info": null,
+                                        "label": null,
+                                        "noteKey": null,
+                                        "prefixText": null,
+                                        "priceType": "DISCOUNT_PERCENT",
+                                        "strikeOff": false,
+                                        "subLabel": null,
+                                        "tracking": null,
+                                        "value": 34
+                                    }
+                                ],
+                                "showPrice": true,
+                                "tags": null,
+                                "valueAddedBenefits": null
+                            },
+                            "seller": {
+                                "fAssured": true,
+                                "name": null,
+                                "sellerRating": null
+                            }
+                        }
+                    },
+                    "tracking": {
+                        "sProduct": ";PTGG33BQRTSZVR4U;;;;eVar19=Painting|eVar22=WallDecor|eVar93=FLIPKART|eVar88=LSTPTGG33BQRTSZVR4ULB76FR|eVar84=490_490_320_34_34|evar67=0_0_0_0|evar44=39306cd23f6c47f5_FA|eVar89=pnf",
+                        "productId": "PTGG33BQRTSZVR4U",
+                        "marketPlace": "FLIPKART",
+                        "otracker": "SFL_PRODUCT_CARD",
+                        "category": "WallDecor",
+                        "widgetType": "SFL_PRODUCT_CARD"
+                    }
+                }
+            }
+        ]
+    },
+    "SESSION": {
+        "accountId": "ACC6FA7B435FACC4940B69C7B71917A5709P",
+        "asn": null,
+        "at": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjNhNzdlZTgxLTRjNWYtNGU5Ni04ZmRlLWM3YWMyYjVlOTA1NSJ9.eyJleHAiOjE2OTg1MjYwNzEsImlhdCI6MTY5ODUyNDI3MSwiaXNzIjoia2V2bGFyIiwianRpIjoiZGU1M2EzYzAtNjMxMy00NzhmLTk4ODYtMWJjZmFjMjhiMzg0IiwidHlwZSI6IkFUIiwiZElkIjoiVEkxNjk0MjQ0MDcxMjA3MDAxMTY1MDc3MDcwNjQ1MzE0OTE0MzA4Mzg1NTM4NzM3MjE3ODUzNzQ5NDE0OTM4MjAyNDUiLCJiSWQiOiJEVTVQVVIiLCJrZXZJZCI6IlZJQ0FFMTA1NTAyNjEyNEEyQ0E0NjJBMDZBRkJGOTA1QTkiLCJ0SWQiOiJtYXBpIiwiZWFJZCI6IjdkcDhRUlM5WjVCSXJzTTRtXy0zUkVBaXdVOUdYU0c0d3p3NHV1Q2EyaHRIR3VueWNwZnFGZz09IiwidnMiOiJMSSIsInoiOiJDSCIsIm0iOnRydWUsImdlbiI6NH0.CdJ8ULVfwiS0_leNPXhwI-l6mR3WE5QOPxxq2lCxpgA",
+        "email": "bhupeshbajpai2@gmail.com",
+        "firstName": "Bhupesh",
+        "flipkartFirstUser": false,
+        "isLoggedIn": true,
+        "kAction": null,
+        "lastName": "Bajpai",
+        "nsid": "3.VICAE1055026124A2CA462A06AFBF905A9.1698524311508.VICAE1055026124A2CA462A06AFBF905A9",
+        "rt": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjhlM2ZhMGE3LTJmZDMtNGNiMi05MWRjLTZlNTMxOGU1YTkxZiJ9.eyJleHAiOjE3MTQzMzU0NzEsImlhdCI6MTY5ODUyNDI3MSwiaXNzIjoia2V2bGFyIiwianRpIjoiZTNlMGEzOGYtMjVjYi00YjJkLTgzM2EtNzUxMTFkYjVjY2RhIiwidHlwZSI6IlJUIiwiZElkIjoiVEkxNjk0MjQ0MDcxMjA3MDAxMTY1MDc3MDcwNjQ1MzE0OTE0MzA4Mzg1NTM4NzM3MjE3ODUzNzQ5NDE0OTM4MjAyNDUiLCJiSWQiOiJEVTVQVVIiLCJrZXZJZCI6IlZJQ0FFMTA1NTAyNjEyNEEyQ0E0NjJBMDZBRkJGOTA1QTkiLCJ0SWQiOiJtYXBpIiwibSI6eyJ0eXBlIjoibiJ9LCJ2IjoiU01LNlpOIn0.ByPSw1uRT0Gp-5uF58swbvv2G5P7c-7hN4tnGR_dk7U",
+        "secureToken": "VICAE1055026124A2CA462A06AFBF905A9:VICAE1055026124A2CA462A06AFBF905A9",
+        "sn": "VICAE1055026124A2CA462A06AFBF905A9.TOKED2C4740E15D49359D2888B221D8A19D.1698524310.LI",
+        "ts": 0,
+        "twoFa": true,
+        "vid": "VICAE1055026124A2CA462A06AFBF905A9"
+    },
+    "STATUS_CODE": 200
+}
