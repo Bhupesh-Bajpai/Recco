@@ -17,8 +17,8 @@ function App() {
 
 
   useEffect(() => {
-    // Simulate a backend call to fetch data
-    fetch('http://localhost:3000/mockData.json') // Adjust the path as needed
+  
+    fetch('http://localhost:3000/mockData.json') 
       .then((response) => response.json())
       .then((jsonData) => {
         appStore.dispatch(setProducts(jsonData));
