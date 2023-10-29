@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { markAsAccepted, markAsMissing } from '../Utils/cartSlice';
 import AvocadoImg from '../Utils/Avocado Hass.jpg';
-import AcceptStatus from './AcceptStatus'; // Import the AcceptStatus component
-import MissingStatus from './MissingStatus'; // Import the MissingStatus component
+import AcceptStatus from './AcceptStatus'; 
+import MissingStatus from './MissingStatus'; 
 
 
 
@@ -26,15 +26,14 @@ function CartItem({ product }) {
     dispatch(markAsMissing({ id: product.id, status: userChoice }));
   };
 
-  // Define statusComponent to conditionally render the status component
+
   let statusComponent;
 
   if (status === 'accept') {
-    statusComponent = <AcceptStatus />; // Render AcceptStatus component
+    statusComponent = <AcceptStatus />; 
   } else if (status.includes('missing')) {
-    statusComponent = <MissingStatus />; // Render MissingStatus component
+    statusComponent = <MissingStatus />; 
   } else {
-    // If neither AcceptStatus nor MissingStatus is rendered, provide a blank space
     statusComponent = <span>&nbsp;</span>;
   }
 

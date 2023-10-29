@@ -1,6 +1,6 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
-import CartItem from './CartItem'; // Make sure to import the CartItem component
+import CartItem from './CartItem'; 
 
 function Order() {
   const products = useSelector((state) => state.cart.cart);
